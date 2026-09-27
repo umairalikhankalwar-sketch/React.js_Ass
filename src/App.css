@@ -1,0 +1,130 @@
+button {
+  display: flex;
+  margin: 8px auto;
+  width: 100px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+transition: all 0.7s  ease;
+
+
+animation: change 3s ease-in-out infinite;
+
+}
+
+
+
+#m:hover{
+
+scale: 1.2;
+color: black;
+background-color: cyan;
+font-weight: bold;
+cursor: pointer;
+animation-play-state: paused;
+
+
+}
+
+
+
+
+
+
+
+h1{
+
+color: red;
+
+animation: color 1s ease-in-out infinite;
+
+}
+
+
+@keyframes color {
+
+0%,100%{
+
+transform: scale(1);
+color: blue;
+
+}
+
+
+50%{
+
+  transform: scale(1.2);
+color: red;
+
+}
+
+
+}
+
+
+
+
+
+
+h2{
+
+color: red;
+
+animation: colorr 1.2s ease-in-out infinite;
+
+}
+
+
+@keyframes colorr {
+
+0%,100%{
+
+transform: scale(1);
+color: cyan;
+
+}
+
+
+50%{
+
+  transform: scale(1.4);
+color: yellow;
+
+}
+
+
+}
+
+
+
+*{
+
+  scrollbar-width: none;
+}
+
+
+
+
+
+
+@keyframes change {
+
+0%,100%{
+
+transform: scale(1);
+
+
+}
+
+
+50%{
+
+  transform: scale(1.2);
+font-weight: bold;
+background-color: green;
+
+
+}
+
+
+}
